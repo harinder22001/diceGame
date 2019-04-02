@@ -12,13 +12,13 @@ if(num1>num2){
 
 document.querySelector("h1").textContent="⛳ Player 1 Wins";
 }
-else if (true) {
+else if (num1<num2) {
 
   document.querySelector("h1").textContent="Player 2 Wins ⛳" ;
 
 
 
 }else{
-  document.querySelector("h1").textContent="Its a tie";
+  document.querySelector("h1").textContent="Its a Tie!";
 
 }
